@@ -1,0 +1,92 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+
+@import "./abstract/var";
+@import "./abstract/mixins";
+@import "./abstract/functions";
+
+@import "./base/base";
+@import "./base/animations";
+@import "./base/utilities";
+@import "./base/typography";
+  
+
+
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/navigation";
+
+
+
+@import "./components/button";
+@import "./components/composition";
+@import "./components/feature-box";
+@import "./components/bg-video";
+@import "./components/story";
+@import "./components/card";
+@import "./components/book";
+@import "./components/form";
+
+
+
+@import "./pages/home";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+// .test{
+//   display :inline-block;
+//   &::before{
+//     content : 'I ';
+
+//   }
+//   &::after{
+//     content: 'Angular';
+
+//   }
+// }
+
+
+
+
+
+
+
+
+
+// body{
+//     background-color: orange;
+// }
+
+
+
+
+
+
+

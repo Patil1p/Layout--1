@@ -1,0 +1,38 @@
+
+
+.heading-secondary{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin-bottom: 8rem;
+   
+    // background-image: linear-gradient(to right,$color-primary-light,$color-primary-dark);
+    @include lg(to right,$color-primary-light,$color-primary-dark);
+    @include backgroundClip;
+
+    transition: all .1s ease-in-out;
+    &:hover,&:focus{
+        transform: scale(1.1);
+        text-shadow: .2rem .1rem .2rem rgba($color-dark, .2);
+
+    }
+     
+
+
+}
+
+
+.heading-ter{
+    text-transform:uppercase;
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+
+}
+
+.paragraph{
+    font-size: 1.5rem;
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
